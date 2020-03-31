@@ -9,7 +9,7 @@ import random
 from bs4 import BeautifulSoup as bs
 import apiai
 import json
-df_key = 'f8e942456803467e862e8b2edc2772fc'
+df_key ='f8e942456803467e862e8b2edc2772fc'
 vk_session= vk_api.VkApi(token = 'f0d14c310f179e62ce4821a3dc17a23312c936de27b1a335844b33072ab56e55388bfa6f0d66e2d26a509')
 from vk_api.longpoll import VkLongPoll, VkEventType
 longpoll= VkLongPoll(vk_session)
